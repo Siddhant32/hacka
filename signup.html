@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Residency Issue Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+    />
+    </head>
+    <body>
+<header class="navbar">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Issues</a>
+        <a href="#">Remainder</a>
+        <a href="#">Time Table</a>
+        <a href="signup.html">Sign up</a>
+        </nav>
+    </header>
+    <div class="content">
+        <img class="image-1-icon" alt="" src="image 1.png" />
+
+        <div class="text">
+        <b class="sign-up">Sign up</b>
+        <div class="sign-up-to">Sign up to be a member of Home residency</div>
+        </div>
+
+        <form class="form">
+        <!-- Name -->
+        <div class="input">
+            <input type="text" class="input-field" placeholder="Enter your name" required />
+        </div>
+
+        <!-- Role Dropdown -->
+        <div class="input role-input">
+            <select class="dropdown" name="role" required>
+            <option value="" disabled selected>Choose your role</option>
+            <option value="admin">Admin</option>
+            <option value="resident">Resident</option>
+            <option value="staff">Staff</option>
+            </select>
+        </div>
+
+        <!-- Flat No -->
+        <div class="input1">
+            <input type="text" class="input-field" placeholder="Enter flat no" required />
+        </div>
+
+        <!-- Email -->
+        <div class="input2">
+            <input type="email" class="input-field" placeholder="Enter email address" required />
+        </div>
+
+        <!-- Password -->
+        <div class="input3">
+            <input type="password" class="input-field" placeholder="Enter password" required />
+            <img class="eye-off-icon" alt="" src="eye-off.svg" />
+        </div>
+
+        <!-- Submit Button -->
+        <div class="button">
+            <button type="submit" class="sign-up1">Sign up</button>
+        </div>
+        </form>
+
+        <div class="already-have-an-container">
+        <span>Already have an account? </span>
+        <span class="sign-in">Sign in</span>
+        </div>
+    </div>
+    </body>
+    </html>
