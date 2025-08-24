@@ -1,0 +1,49 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Residency Issue Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+    />
+    </head>
+    <body>
+    <!-- Navbar -->
+<header class="navbar">
+    <img src="logo.png" alt="Logo" class="logo" />
+
+    <!-- Hamburger button -->
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Issues</a>
+        <a href="#">Remainder</a>
+        <a href="#">Time Table</a>
+        <a href="signup.html">Sign up</a>
+    </nav>
+</header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="tag">Modern Society Management</div>
+        <h1 class="title">Smart Residency Issue Tracker</h1>
+        <p class="subtitle">
+        Transform your residential society management with our intelligent issue tracking system. 
+        Streamline maintenance, enhance communication, and create a better living experience for everyone.
+        </p>
+    </section>
+    <script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
+
+    </body>
+    </html>
